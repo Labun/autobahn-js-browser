@@ -4921,7 +4921,7 @@ Factory.prototype.create = function () {
    } else {
       (function () {
 
-         var WebSocket = require('ws'); // https://github.com/websockets/ws
+         var WebSocket = require('websocket').client //require('ws'); // https://github.com/websockets/ws
          var randomBytes = require('tweetnacl').randomBytes;
          var websocket;
 

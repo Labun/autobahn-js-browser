@@ -2,8 +2,7 @@
   "name": "autobahn-browser",
   "version": "20.7.2",
   "description": "[BROWSER BUILD] An implementation of The Web Application Messaging Protocol (WAMP).",
-  "main": "autobahn.min.js",
-
+  "main": "autobahn.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/crossbario/autobahn-js-browser.git"
@@ -15,5 +14,8 @@
     "PubSub"
   ],
   "author": "Crossbar.io Technologies GmbH",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "websocket": "^1.0.34"
+  }
 }
