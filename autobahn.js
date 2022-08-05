@@ -35070,7 +35070,8 @@ module.exports={
     "hmac-drbg": "^1.0.0",
     "inherits": "^2.0.1",
     "minimalistic-assert": "^1.0.0",
-    "minimalistic-crypto-utils": "^1.0.0"
+    "minimalistic-crypto-utils": "^1.0.0",
+    "websocket": "^1.0.34"
   },
   "deprecated": false,
   "description": "EC cryptography",
